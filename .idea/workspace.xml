@@ -1,7 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="549e1089-aabe-4b72-b0e9-944a4dc4d6f4" name="Default Changelist" comment="Adding files to the project.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/expert/spriframework/mcsjacksonexamples/model/BeerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/expert/spriframework/mcsjacksonexamples/model/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/expert/spriframework/mcsjacksonexamples/model/BeerDtoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pDhGinF3VCNtIUm5ctxvSAHLMZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="expert.spriframework.mcsjacksonexamples.model" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BeerDtoTest.testDeserialize">
+    <configuration name="BeerDtoTest.testDeserialize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mcsjacksonexamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="expert.spriframework.mcsjacksonexamples.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="expert.spriframework.mcsjacksonexamples.model" />
+      <option name="MAIN_CLASS_NAME" value="expert.spriframework.mcsjacksonexamples.model.BeerDtoTest" />
+      <option name="METHOD_NAME" value="testDeserialize" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerDtoTest.testSerializeDto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mcsjacksonexamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="expert.spriframework.mcsjacksonexamples.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="expert.spriframework.mcsjacksonexamples.model" />
+      <option name="MAIN_CLASS_NAME" value="expert.spriframework.mcsjacksonexamples.model.BeerDtoTest" />
+      <option name="METHOD_NAME" value="testSerializeDto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BeerDtoTest.testDeserialize" />
+        <item itemvalue="JUnit.BeerDtoTest.testSerializeDto" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="549e1089-aabe-4b72-b0e9-944a4dc4d6f4" name="Default Changelist" comment="" />
+      <created>1614723474714</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614723474714</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Adding files to the project.">
+      <created>1614723668071</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614723668071</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding files to the project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding files to the project." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="220" y="38" key="Maven.ArtifactSearchDialog" timestamp="1614723855913">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="220" y="38" key="Maven.ArtifactSearchDialog/0.0.1366.728/1366.-304.1920.1040@0.0.1366.728" timestamp="1614723855913" />
+    <state x="282" y="107" key="Vcs.Push.Dialog.v2" timestamp="1614723673479">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="282" y="107" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-304.1920.1040@0.0.1366.728" timestamp="1614723673479" />
+    <state x="413" y="71" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1614724080655">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="71" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728/1366.-304.1920.1040@0.0.1366.728" timestamp="1614724080655" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.18/lombok-1.18.18.jar!/lombok/Data.class</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
