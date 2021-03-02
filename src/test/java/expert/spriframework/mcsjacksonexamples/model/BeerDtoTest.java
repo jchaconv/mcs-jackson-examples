@@ -9,10 +9,7 @@ import org.springframework.boot.test.autoconfigure.json.JsonTest;
 import static org.junit.jupiter.api.Assertions.*;
 
 @JsonTest
-class BeerDtoTest extends BaseTest{
-
-    @Autowired
-    ObjectMapper objectMapper;
+class BeerDtoTest extends BaseTest {
 
     @Test
     void testSerializeDto() throws JsonProcessingException {
