@@ -19,13 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="549e1089-aabe-4b72-b0e9-944a4dc4d6f4" name="Default Changelist" comment="Naming conventions - SNAKE_CASE">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/expert/spriframework/mcsjacksonexamples/model/BeerDtoKebabTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application-kebab.properties" afterDir="false" />
+    <list default="true" id="549e1089-aabe-4b72-b0e9-944a4dc4d6f4" name="Default Changelist" comment="Kebab naming convention and refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/expert/spriframework/mcsjacksonexamples/model/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/expert/spriframework/mcsjacksonexamples/model/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/expert/spriframework/mcsjacksonexamples/model/BeerDtoSnakeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/expert/spriframework/mcsjacksonexamples/model/BeerDtoSnakeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/expert/spriframework/mcsjacksonexamples/model/BeerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/expert/spriframework/mcsjacksonexamples/model/BeerDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/expert/spriframework/mcsjacksonexamples/model/BeerDtoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/expert/spriframework/mcsjacksonexamples/model/BeerDtoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +68,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BeerDtoKebabTest.testKebabJson">
+  <component name="RunManager" selected="JUnit.BeerDtoTest.testSerializeDto">
     <configuration name="BeerDtoKebabTest.testKebabJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mcsjacksonexamples" />
       <extension name="coverage">
@@ -154,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BeerDtoTest.testSerializeDto" />
+        <item itemvalue="JUnit.BeerDtoTest.testDeserialize" />
+        <item itemvalue="JUnit.BeerDtoTest" />
         <item itemvalue="JUnit.BeerDtoKebabTest.testKebabJson" />
         <item itemvalue="JUnit.BeerDtoSnakeTest.testSnake" />
-        <item itemvalue="JUnit.BeerDtoTest" />
-        <item itemvalue="JUnit.BeerDtoTest.testDeserialize" />
-        <item itemvalue="JUnit.BeerDtoTest.testSerializeDto" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614726032416</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Kebab naming convention and refactor">
+      <created>1614726520186</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614726520186</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,37 +215,38 @@
     <MESSAGE value="Adding files to the project." />
     <MESSAGE value="Json Testing" />
     <MESSAGE value="Naming conventions - SNAKE_CASE" />
-    <option name="LAST_COMMIT_MESSAGE" value="Naming conventions - SNAKE_CASE" />
+    <MESSAGE value="Kebab naming convention and refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kebab naming convention and refactor" />
   </component>
   <component name="WindowStateProjectService">
     <state x="433" y="256" width="515" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1614726261001">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="433" y="256" width="515" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728/1366.-304.1920.1040@0.0.1366.728" timestamp="1614726261001" />
-    <state width="1306" height="166" key="GridCell.Tab.0.bottom" timestamp="1614726320155">
+    <state width="1306" height="230" key="GridCell.Tab.0.bottom" timestamp="1614727028178">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="166" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-304.1920.1040@0.0.1366.728" timestamp="1614726320155" />
-    <state width="1306" height="166" key="GridCell.Tab.0.center" timestamp="1614726320154">
+    <state width="1306" height="230" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-304.1920.1040@0.0.1366.728" timestamp="1614727028178" />
+    <state width="1306" height="230" key="GridCell.Tab.0.center" timestamp="1614727028178">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="166" key="GridCell.Tab.0.center/0.0.1366.728/1366.-304.1920.1040@0.0.1366.728" timestamp="1614726320154" />
-    <state width="1306" height="166" key="GridCell.Tab.0.left" timestamp="1614726320154">
+    <state width="1306" height="230" key="GridCell.Tab.0.center/0.0.1366.728/1366.-304.1920.1040@0.0.1366.728" timestamp="1614727028178" />
+    <state width="1306" height="230" key="GridCell.Tab.0.left" timestamp="1614727028177">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="166" key="GridCell.Tab.0.left/0.0.1366.728/1366.-304.1920.1040@0.0.1366.728" timestamp="1614726320154" />
-    <state width="1306" height="166" key="GridCell.Tab.0.right" timestamp="1614726320155">
+    <state width="1306" height="230" key="GridCell.Tab.0.left/0.0.1366.728/1366.-304.1920.1040@0.0.1366.728" timestamp="1614727028177" />
+    <state width="1306" height="230" key="GridCell.Tab.0.right" timestamp="1614727028178">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="166" key="GridCell.Tab.0.right/0.0.1366.728/1366.-304.1920.1040@0.0.1366.728" timestamp="1614726320155" />
+    <state width="1306" height="230" key="GridCell.Tab.0.right/0.0.1366.728/1366.-304.1920.1040@0.0.1366.728" timestamp="1614727028178" />
     <state x="220" y="38" key="Maven.ArtifactSearchDialog" timestamp="1614723855913">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="220" y="38" key="Maven.ArtifactSearchDialog/0.0.1366.728/1366.-304.1920.1040@0.0.1366.728" timestamp="1614723855913" />
-    <state x="282" y="107" key="Vcs.Push.Dialog.v2" timestamp="1614726037917">
+    <state x="282" y="107" key="Vcs.Push.Dialog.v2" timestamp="1614726522140">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="282" y="107" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-304.1920.1040@0.0.1366.728" timestamp="1614726037917" />
+    <state x="282" y="107" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-304.1920.1040@0.0.1366.728" timestamp="1614726522140" />
     <state x="413" y="71" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1614724080655">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
