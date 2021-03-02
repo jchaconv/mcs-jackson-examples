@@ -19,12 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="549e1089-aabe-4b72-b0e9-944a4dc4d6f4" name="Default Changelist" comment="Adding files to the project.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/expert/spriframework/mcsjacksonexamples/model/BeerDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/expert/spriframework/mcsjacksonexamples/model/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/expert/spriframework/mcsjacksonexamples/model/BeerDtoTest.java" afterDir="false" />
+    <list default="true" id="549e1089-aabe-4b72-b0e9-944a4dc4d6f4" name="Default Changelist" comment="Json Testing">
+      <change afterPath="$PROJECT_DIR$/src/test/java/expert/spriframework/mcsjacksonexamples/model/BeerDtoSnakeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application-snake.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +64,38 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BeerDtoTest.testDeserialize">
+  <component name="RunManager" selected="JUnit.BeerDtoSnakeTest.testSnake">
+    <configuration name="BeerDtoSnakeTest.testSnake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mcsjacksonexamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="expert.spriframework.mcsjacksonexamples.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="expert.spriframework.mcsjacksonexamples.model" />
+      <option name="MAIN_CLASS_NAME" value="expert.spriframework.mcsjacksonexamples.model.BeerDtoSnakeTest" />
+      <option name="METHOD_NAME" value="testSnake" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerDtoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mcsjacksonexamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="expert.spriframework.mcsjacksonexamples.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="expert.spriframework.mcsjacksonexamples.model" />
+      <option name="MAIN_CLASS_NAME" value="expert.spriframework.mcsjacksonexamples.model.BeerDtoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BeerDtoTest.testDeserialize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mcsjacksonexamples" />
       <extension name="coverage">
@@ -101,6 +130,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BeerDtoSnakeTest.testSnake" />
+        <item itemvalue="JUnit.BeerDtoTest" />
         <item itemvalue="JUnit.BeerDtoTest.testDeserialize" />
         <item itemvalue="JUnit.BeerDtoTest.testSerializeDto" />
       </list>
@@ -124,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614723668071</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Json Testing">
+      <created>1614724894110</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614724894110</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,17 +178,34 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding files to the project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding files to the project." />
+    <MESSAGE value="Json Testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Json Testing" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1306" height="202" key="GridCell.Tab.0.bottom" timestamp="1614725734701">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="202" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-304.1920.1040@0.0.1366.728" timestamp="1614725734701" />
+    <state width="1306" height="202" key="GridCell.Tab.0.center" timestamp="1614725734700">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="202" key="GridCell.Tab.0.center/0.0.1366.728/1366.-304.1920.1040@0.0.1366.728" timestamp="1614725734700" />
+    <state width="1306" height="202" key="GridCell.Tab.0.left" timestamp="1614725734700">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="202" key="GridCell.Tab.0.left/0.0.1366.728/1366.-304.1920.1040@0.0.1366.728" timestamp="1614725734700" />
+    <state width="1306" height="202" key="GridCell.Tab.0.right" timestamp="1614725734700">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="202" key="GridCell.Tab.0.right/0.0.1366.728/1366.-304.1920.1040@0.0.1366.728" timestamp="1614725734700" />
     <state x="220" y="38" key="Maven.ArtifactSearchDialog" timestamp="1614723855913">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="220" y="38" key="Maven.ArtifactSearchDialog/0.0.1366.728/1366.-304.1920.1040@0.0.1366.728" timestamp="1614723855913" />
-    <state x="282" y="107" key="Vcs.Push.Dialog.v2" timestamp="1614723673479">
+    <state x="282" y="107" key="Vcs.Push.Dialog.v2" timestamp="1614724946173">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="282" y="107" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-304.1920.1040@0.0.1366.728" timestamp="1614723673479" />
+    <state x="282" y="107" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-304.1920.1040@0.0.1366.728" timestamp="1614724946173" />
     <state x="413" y="71" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1614724080655">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
